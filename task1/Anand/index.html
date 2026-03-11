@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Stone Paper Scissors</h1>
+
+<div class="game-container">
+
+    <div class="choices">
+       
+            <button class="choice" data-choice="rock">
+                <img src="https://rock-paper-scissors-lilac-alpha.vercel.app/static/media/rock.png">
+                <p>Stone</p>
+            </button>
+
+            <button class="choice" data-choice="paper">
+                <img src="https://abdeali7.github.io/Rock-Paper-Scissors/images/paper.png">
+                <p>Paper</p>
+            </button>
+
+            <button class="choice" data-choice="scissors">
+                <img src="https://zillur-rgb.github.io/rock-paper-scissor/images/scissor.png">
+                <p>Scissors</p>
+            </button>
+
+    </div>
+     <div class="result">
+        <p id="yourchoice">Your Choice: -</p>
+        <p id="computerchoice">Computer Choice: -</p>
+        <h2 id="results">Result: Start Playing!</h2>
+    </div>
+
+    <div class="scoreboard">
+        <div class="score">
+            <p>You:</p>
+            <p id= "your"> 0</p>
+        </div>
+        <div class="score">
+            <p>Computer:</p>
+            <p id="computer"> 0</p>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
